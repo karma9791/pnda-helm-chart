@@ -141,8 +141,8 @@ dataService:
 deploymentManager:
   fullnameOverride: deployment-manager
   image: 
-    repository: pnda/deployment-manager
-    tag: 2.1.2
+    repository: karma001/dmanager
+    tag: dm_v1
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
